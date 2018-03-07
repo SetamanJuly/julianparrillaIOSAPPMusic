@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FFA62D1A4BEE19BD8ADBC76 /* Pods_AppMusicJulianParrillaFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076CD7A4CC8914CFDE89A482 /* Pods_AppMusicJulianParrillaFinal.framework */; };
+		7F0F87E9204F24B400D57A81 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0F87E8204F24B400D57A81 /* RegisterViewController.swift */; };
 		7F36D8D1202CE7630008D1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36D8D0202CE7630008D1F1 /* AppDelegate.swift */; };
 		7F36D8D3202CE7630008D1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F36D8D2202CE7630008D1F1 /* ViewController.swift */; };
 		7F36D8D6202CE7630008D1F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F36D8D4202CE7630008D1F1 /* Main.storyboard */; };
 		7F36D8D8202CE7630008D1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F36D8D7202CE7630008D1F1 /* Assets.xcassets */; };
 		7F36D8DB202CE7630008D1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F36D8D9202CE7630008D1F1 /* LaunchScreen.storyboard */; };
+		7FC04BD720504624008A585F /* DataInTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC04BD620504624008A585F /* DataInTableViewCell.swift */; };
+		7FC04BDB2050479D008A585F /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC04BDA2050479D008A585F /* ListTableViewController.swift */; };
+		7FC04BDD20505169008A585F /* Songs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC04BDC20505169008A585F /* Songs.swift */; };
+		7FE2A2D22049ADE5000235A3 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2A2D12049ADE5000235A3 /* LogInViewController.swift */; };
+		7FE2A2D62049AE13000235A3 /* RecoverPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2A2D42049AE13000235A3 /* RecoverPasswordViewController.swift */; };
+		7FE2A2DC2049AE3A000235A3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2A2D92049AE39000235A3 /* DataManager.swift */; };
+		7FE2A2DD2049AE3A000235A3 /* JSONhttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2A2DA2049AE39000235A3 /* JSONhttp.swift */; };
+		7FE2A2DE2049AE3A000235A3 /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE2A2DB2049AE39000235A3 /* RequestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		076CD7A4CC8914CFDE89A482 /* Pods_AppMusicJulianParrillaFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMusicJulianParrillaFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		438CE9697998B40D3F26D24E /* Pods-AppMusicJulianParrillaFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMusicJulianParrillaFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppMusicJulianParrillaFinal/Pods-AppMusicJulianParrillaFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		482A30496B43CAC38A2D496E /* Pods-AppMusicJulianParrillaFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMusicJulianParrillaFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppMusicJulianParrillaFinal/Pods-AppMusicJulianParrillaFinal.release.xcconfig"; sourceTree = "<group>"; };
+		7F0F87E8204F24B400D57A81 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		7F36D8CD202CE7630008D1F1 /* AppMusicJulianParrillaFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMusicJulianParrillaFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F36D8D0202CE7630008D1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F36D8D2202CE7630008D1F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,14 @@
 		7F36D8D7202CE7630008D1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F36D8DA202CE7630008D1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F36D8DC202CE7630008D1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC04BD620504624008A585F /* DataInTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInTableViewCell.swift; sourceTree = "<group>"; };
+		7FC04BDA2050479D008A585F /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		7FC04BDC20505169008A585F /* Songs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Songs.swift; sourceTree = "<group>"; };
+		7FE2A2D12049ADE5000235A3 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		7FE2A2D42049AE13000235A3 /* RecoverPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecoverPasswordViewController.swift; sourceTree = "<group>"; };
+		7FE2A2D92049AE39000235A3 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		7FE2A2DA2049AE39000235A3 /* JSONhttp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONhttp.swift; sourceTree = "<group>"; };
+		7FE2A2DB2049AE39000235A3 /* RequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFA62D1A4BEE19BD8ADBC76 /* Pods_AppMusicJulianParrillaFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34751807B1EF8D3EAB4C363B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				438CE9697998B40D3F26D24E /* Pods-AppMusicJulianParrillaFinal.debug.xcconfig */,
+				482A30496B43CAC38A2D496E /* Pods-AppMusicJulianParrillaFinal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7F36D8C4202CE7630008D1F1 = {
 			isa = PBXGroup;
 			children = (
 				7F36D8CF202CE7630008D1F1 /* AppMusicJulianParrillaFinal */,
 				7F36D8CE202CE7630008D1F1 /* Products */,
+				34751807B1EF8D3EAB4C363B /* Pods */,
+				C7879634E4B30CA94F0F8F53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +88,9 @@
 		7F36D8CF202CE7630008D1F1 /* AppMusicJulianParrillaFinal */ = {
 			isa = PBXGroup;
 			children = (
+				7FE2A2E12049AE7E000235A3 /* Listas */,
+				7FE2A2E02049AE65000235A3 /* Service */,
+				7FE2A2DF2049AE46000235A3 /* Logi */,
 				7F36D8D0202CE7630008D1F1 /* AppDelegate.swift */,
 				7F36D8D2202CE7630008D1F1 /* ViewController.swift */,
 				7F36D8D4202CE7630008D1F1 /* Main.storyboard */,
@@ -64,6 +101,44 @@
 			path = AppMusicJulianParrillaFinal;
 			sourceTree = "<group>";
 		};
+		7FE2A2DF2049AE46000235A3 /* Logi */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2A2D42049AE13000235A3 /* RecoverPasswordViewController.swift */,
+				7FE2A2D12049ADE5000235A3 /* LogInViewController.swift */,
+				7F0F87E8204F24B400D57A81 /* RegisterViewController.swift */,
+			);
+			path = Logi;
+			sourceTree = "<group>";
+		};
+		7FE2A2E02049AE65000235A3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				7FE2A2DB2049AE39000235A3 /* RequestController.swift */,
+				7FE2A2D92049AE39000235A3 /* DataManager.swift */,
+				7FE2A2DA2049AE39000235A3 /* JSONhttp.swift */,
+				7FC04BDC20505169008A585F /* Songs.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7FE2A2E12049AE7E000235A3 /* Listas */ = {
+			isa = PBXGroup;
+			children = (
+				7FC04BD620504624008A585F /* DataInTableViewCell.swift */,
+				7FC04BDA2050479D008A585F /* ListTableViewController.swift */,
+			);
+			path = Listas;
+			sourceTree = "<group>";
+		};
+		C7879634E4B30CA94F0F8F53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				076CD7A4CC8914CFDE89A482 /* Pods_AppMusicJulianParrillaFinal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F36D8DF202CE7630008D1F1 /* Build configuration list for PBXNativeTarget "AppMusicJulianParrillaFinal" */;
 			buildPhases = (
+				B8811B09DB23BD4780071758 /* [CP] Check Pods Manifest.lock */,
 				7F36D8C9202CE7630008D1F1 /* Sources */,
 				7F36D8CA202CE7630008D1F1 /* Frameworks */,
 				7F36D8CB202CE7630008D1F1 /* Resources */,
+				00A8DF0ABC0C447E3DCAFD8D /* [CP] Embed Pods Frameworks */,
+				694A794D6B95B1CDC95C9E17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +209,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00A8DF0ABC0C447E3DCAFD8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppMusicJulianParrillaFinal/Pods-AppMusicJulianParrillaFinal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/ZAlertView/ZAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppMusicJulianParrillaFinal/Pods-AppMusicJulianParrillaFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		694A794D6B95B1CDC95C9E17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppMusicJulianParrillaFinal/Pods-AppMusicJulianParrillaFinal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8811B09DB23BD4780071758 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMusicJulianParrillaFinal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F36D8C9202CE7630008D1F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F0F87E9204F24B400D57A81 /* RegisterViewController.swift in Sources */,
+				7FE2A2DE2049AE3A000235A3 /* RequestController.swift in Sources */,
 				7F36D8D3202CE7630008D1F1 /* ViewController.swift in Sources */,
 				7F36D8D1202CE7630008D1F1 /* AppDelegate.swift in Sources */,
+				7FE2A2DD2049AE3A000235A3 /* JSONhttp.swift in Sources */,
+				7FE2A2DC2049AE3A000235A3 /* DataManager.swift in Sources */,
+				7FE2A2D22049ADE5000235A3 /* LogInViewController.swift in Sources */,
+				7FC04BDB2050479D008A585F /* ListTableViewController.swift in Sources */,
+				7FC04BD720504624008A585F /* DataInTableViewCell.swift in Sources */,
+				7FE2A2D62049AE13000235A3 /* RecoverPasswordViewController.swift in Sources */,
+				7FC04BDD20505169008A585F /* Songs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +421,7 @@
 		};
 		7F36D8E0202CE7630008D1F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438CE9697998B40D3F26D24E /* Pods-AppMusicJulianParrillaFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +436,7 @@
 		};
 		7F36D8E1202CE7630008D1F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482A30496B43CAC38A2D496E /* Pods-AppMusicJulianParrillaFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
